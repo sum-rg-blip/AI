@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.header ul {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+  font-size: 30px;
+  margin-left: 500px;
+}
+
+.headerbtn button {
+  background-color: #7C4EE4;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 2px #7C4EE4 solid;
+  color: black;
+  border-radius: 5px;
+  /* margin-left: 600px; */
+  text-align: left;
+}
+
+.header span {
+  color: #7C4EE4;
+}
+
+.header ul,
+i {
+  font-size: 20px;
+  text-align: left;
+  color: black;
+}
+
+.main {
+  background-color: #7C4EE4;
+
+  
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-left {
+  padding: 20px 70px;
+  color: white;
+}
+
+.main-left h1 {
+  padding-top: 50px;
+}
+
+.main-left button {
+  background-color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: 1px white solid;
+  color: black;
+  border-radius: 5px;
+  font-weight: 400px;
+}
+
+.main img {
+  border: 1px #7C4EE4 solid;
+  border-radius: 10px;
+  margin-right: 100px;
+}
+
+/* .main2{
+  background-color:  white;
+  
+  width: 1360px;
+  height: 300px;
+} */
+
+.main2-above {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.main2-left {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 20px;
+  padding-right: 320px;
+  padding-left: 20px;
+}
+
+.main2-above button {
+  background-color: #7C4EE4;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px #7C4EE4 solid;
+  color: black;
+  border-radius: 5px;
+  margin-left: 850px;
+  /* text-align: left; */
+}
+
+/* .main2-above h1{
+  margin-right: 100px;
+  text-align: right;
+  padding-right: 0%;
+  
+  
+} */
+
+
+.main2-left img {
+  border: 1px #7C4EE4 solid;
+  border-radius: 10px;
+
+  /* margin-right: 100px; */
+}
+
+/* main2-left2{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-right: 200px; 
+ 
+}  */
+.main2-left2 button {
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 2px #7C4EE4 solid;
+  color: #7C4EE4;
+  border-radius: 5px;
+
+
+
+}
+
+.main2-left2 span {
+  color: black;
+}
+
+.main2-left2 h6 {
+  color: #948f8fb6;
+}
+
+.third-part {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: space-around;
+  padding: 10px;
+  gap: 30px;
+  padding-top: 40px;
+}
+
+.third-part img {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+
+
+}
+
+.footer {
+  height: 300px;
+  background-color: #7C4EE4;
+  color: white;
+}
+
+.location {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 20px 60px;
+  border-bottom: 3px white solid;
+}
+
+.location p {
+  color: #948f8fb6;
+}
+
+form input {
+  width: 220px;
+  height: 30px;
+  margin-top: 20px;
+
+  border-radius: 8px;
+}
+
+form button {
+  width: 150px;
+  height: 30px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 1px white solid;
+  border-radius: 10px;
+  color: white;
+
+}
+
+.footer2 {
+  height: 300px;
+  background-color: white;
+  color: white;
+  border-bottom: 3px black solid;
+}
+
+.location1 {
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+.location2 ul {
+  color: black;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+  padding-top: 20px;
+
+}
+
+.locationicons {
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.last {
+  text-align: center;
+  color: black;
+}
+
+.header i {
+  display: none;
+}
+
+@media screen and (max-width:600px) {
+
+  .header img {
+
+    font-size: 50px;
+  }
+
+  .headerbtn {
+    display: none;
+  }
+
+  .header ul {
+
+    display: none;
+
+  }
+
+  .header i {
+    display: block;
+    font-size: 50px;
+  }
+
+  .main{
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    flex-direction: column;
+    
+  }
+  .main-left {
+    padding: 0;
+    margin: 0;
+  }
+.main2-left{
+  padding: 0px;
+}
+  .main img {
+    width: 350px;
+    margin-top: 12px;
+
+  }
+
+  .main2-above button {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main2-left {
+    flex-direction: column;
+  }
+
+  .main2-left img {
+    width: 350px;
+    margin-top: 12px;
+    margin-left: 30px;
+
+  }
+
+  .main2-left2 h1 {
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  
+
+  }
+
+  .main2-left2 p {
+    font-size: 20px;
+    padding: 5px;
+
+    margin: 0;
+  }
+
+  .third-part{
+
+    grid-template-columns: 300px;
+  }
+  .third-left{
+    flex-direction: column;
+  }
+}
